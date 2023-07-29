@@ -1,0 +1,93 @@
+.summary-container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Merriweather Sans", sans-serif;
+  background: url(../../assets/photo-1502667300144-de6ba1304a27.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white
+}
+
+.summary-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+  
+}
+
+.summary-form h3 {
+  font-size: 28px;
+}
+
+.summary-form textarea {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  height: 150px;
+  border: none;
+  resize: none;
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  font-size: 22px;
+  margin: 20px;
+  box-shadow: 0px 2px 3px rgba(36, 36, 36, 0.2);
+  
+}
+
+.summary-form button {
+  
+  padding: 10px;
+  font-size: 22px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: #57b410;
+}
+.summary-form button:hover{
+  cursor:pointer;
+  background-color:rgb(22, 162, 22);
+
+}
+
+.summary-solution {
+  display: flex;
+  font-size: 25px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.error-parent {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.error-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4444;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}

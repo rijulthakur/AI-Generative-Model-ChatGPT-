@@ -1,0 +1,109 @@
+.reg-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  font-family: "Merriweather Sans", sans-serif;
+  background: url("../../assets/Stable-Diffusion-4k-black-holes-black-ai-art-men-2216454.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  max-width: 500px;
+  width: 100%;
+  color:#fff;
+}
+
+.reg-error {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+  background-color: #ff6347;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.reg-actual-error {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.reg-form h3 {
+  color: #fff;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+}
+
+.reg-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 60%;
+  font-size: 24px;
+}
+
+.reg-form input[type="text"],
+.reg-form input[type="email"],
+.reg-form input[type="password"] {
+  color:#fff;
+  font-size: 22px;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 248, 222, 0.5);
+}
+
+.reg-form input[type="text"]:focus,
+.reg-form input[type="email"]:focus,
+.reg-form input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 3px #fff;
+}
+
+.reg-form button[type="submit"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 30%;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.reg-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.reg-form p {
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.reg-form p a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+

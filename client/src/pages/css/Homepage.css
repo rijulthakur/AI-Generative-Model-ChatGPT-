@@ -1,0 +1,88 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url(../../assets/ai-art-Blood-moon-mist-clouds-mountains-water-2225856-wallhere.com.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.card {
+  background-color: rgba(65, 62, 79, 0.738);
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-content {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.card-content:hover {
+  background-color: rgba(53, 22, 88, 0.7);
+  border-radius: 6px;
+}
+
+.card-content i {
+  text-align: center;
+  font-size: 60px;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-desc h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-desc h6 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.card-container {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4c4c4c #f5f5f5;
+}
+
+.card-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card-container::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: #4c4c4c;
+  border-radius: 10px;
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
