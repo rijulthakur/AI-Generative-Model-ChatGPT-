@@ -51,5 +51,3 @@ in working with large language models (LLMs).
 ## Author
 **Rijul Thakur** — Lead Developer & Maintainer  
 B.E. Computer Science and Engineering, Chitkara University (2019–2023)
-- CSS
-
